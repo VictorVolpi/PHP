@@ -1,0 +1,14 @@
+body{
+    border: 5px solid black;
+    background-color:#87CEEB;
+    color: black;
+    width: 20%;
+    padding: 40px;
+    position: absolute;
+    border-radius: 50px;
+    top: 0%;
+    left: 35%;
+    text-align: center;
+
+}
+    

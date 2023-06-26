@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Document</title>
+</head>
+<body>
+   <form action="cadastro.php" method="post">
+        nome: <input type="text" name="nome"><br>
+        email: <input type="text" name="email"><br>
+        idade: <input type="text" name="idade"><br>
+        senha: <input type="text" name="senha"><br>
+
+
+        <h1>sexo</h1>
+
+        <input type="radio" name="sexo" value="masculino">masculino
+        <br>
+        <input type="radio" name="sexo" value="feminino">feminino
+
+        <h1>intereses</h1>
+
+        <input type="checkbox" name="Int[]" value="f">futebol
+        <br>
+        <input type="checkbox" name="Int[]" value="c">cursos
+        <br>
+        <input type="checkbox" name="Int" value="m">moda
+        
+        <h1>estado</h1>
+
+        <select name="estado">
+        <option value="1">São paulo</option>
+        <option value="2">Rio de Janeiro</option>
+        <option value="3">Rio Grande do Sul</option>
+        <option value="4">Bahia</option>
+        <option value="5">Goias</option>
+        </select>
+        <br>
+        <br>
+
+        observações: 
+        <br>
+        <textarea name="mensagem"  cols="30" rows="4"></textarea>
+    
+        <input type="submit">
+    </form> 
+    
+
+    
+    
+
+    
+    
+</body>
+</html>
